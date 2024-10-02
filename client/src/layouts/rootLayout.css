@@ -1,0 +1,35 @@
+.root-layout {
+  padding: 20px 64px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px 0; /* Adjust padding for header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out logo and user button */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 8px;
+}
+
+.logoImg {
+  width: 32px; /* Logo size */
+  height: 32px;
+}
+
+.user {
+  display: flex;
+  align-items: center; /* Center user button vertically */
+}
+
+main {
+  flex: 1;
+  overflow: hidden; /* Prevent overflow of main content */
+}
